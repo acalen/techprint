@@ -5,39 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="navbar.js" async></script>
   </head>
   <body>
-    <!-- Header Begins -->
     <header>
-	  <!-- Top Header Begins -->
 	  <section id="top_header_container">
-		<article class="top_header">
-          <p><a href="tel:+18476160109"><i class="fa fa-phone"></i>&nbsp;&nbsp;<span>(847)&nbsp;616-0109</span></a></p>
-		</article>
-		<article class="top_header">
-		  <p><a href="mailto:info@techprint.com"><i class="fa fa-envelope"></i>&nbsp;&nbsp;<span>info@e-techprint.com</span></a></p>
-		</article>
-		<nav class="top_header social_media">
-		  <a href="https://www.facebook.com/Techprint-Inc-270400973164699/">
-		    <i class="fa fa-facebook"></i>
-		  </a>
-		</nav>
-		<article class="top_header">
-		  <form class="example" method="get" action="action_page.php">
-		    <input type="text" placeholder="Search..." name="search"><button type="submit"><i class="fa fa-search"></i></button>
-		  </form>
-		</article>
+        <a href="tel:+18476160109"><i class="fa fa-phone"></i>&nbsp;&nbsp;<span>(847)&nbsp;616-0109</span></a>
+		<a href="mailto:info@techprint.com"><i class="fa fa-envelope"></i>&nbsp;&nbsp;<span>info@e-techprint.com</span></a>
+		<a href="https://www.facebook.com/Techprint-Inc-270400973164699/"><i class="fa fa-facebook"></i></a>
+		<form class="search" method="get" action="action_page.php">
+		  <input type="text" placeholder="Search..." name="search"><button type="submit"><i class="fa fa-search"></i></button>
+		</form>
 	  </section>
-	  <!-- Top Header Ends -->
-	  <!-- Logo Begins -->
 	  <section id="top_logo_container">
-		<article class="top_logo">
-		  <h1>COMPANY LOGO</p>
-		</article>
+	    <!-- Eventually need logo image here -->
+		<h1>COMPANY LOGO</h1>
 	  </section>
-	  <!-- Logo Ends -->
-	  <!-- Nav Bar Begins -->
-      <section id="top_nav_container">
+	  <section id="top_nav_container">
 	    <nav class="navbar" id="Topnav" role="navigation">
 		  <a href="index.html">Home</a>
 		  <div class="dropdown active">
@@ -57,21 +41,16 @@
 		  <a href="contact.html">Contact</a>
 		  <a href="gallery.html">Gallery</a>
 		</nav>
-		<a href="javascript:void(0);" class="icon" onclick="navFunction()">&#9776;</a>
+		<a href="javascript:void(0);" class="icon" onclick="navFunction()"><i class="fa fa-bars"></i></a>
 	  </section>
-	  <!-- Nav Bar Ends -->
-	  <!-- Header Image and Overlay Begins -->
 	  <section id="top_image_container">
-		<figure id="top_image">
-		  <article id="top_image_overlay">
-		    <h1>33 Years of Experience!</h1>
-		  </article>
-		</figure>
+		<figure id="top_image"></figure>
 	  </section>
-	  <!-- Header Image and Overlaay Ends -->
+	  <section id="top_image_overlay">
+		<h1>33 Years of Experience!</h1>
+	  </section>
 	</header>
-	<!-- Header Ends -->
-	<!-- Main Website Section Begins -->
+	
 	<main>
 	  <section>
 	    <h1 class="main_titles">Rotary Printing</h1>
@@ -86,7 +65,7 @@
       <section>
 	    <h1 class="main_titles">Key Benefits</h1>
 		<article>
-		  <ul> <!-- Reword this list -->
+		  <ul>
 		    <li>Capable of a full 360-degree print</li>
 			<li>Results in a crisp image with no jagged edges</li>
 			<li>Lower tooling costs than other methods</li>
@@ -95,71 +74,30 @@
 	  </section>
 	  <section>
 	    <h1 class="main_titles">Capabilities</h1>
-	    <article> <!-- Reword this section -->
+	    <article>
 		  <p>Our process can be used on parts as small as 1/2" in diameter to as large as 8" in circumference.  We have the ability to print on both  hard and flexible plastics using this process.  Our engineering department will be glad to discuss your needs and work with you to  provide a custom solution.</p>
 		  <p>We also offer <a href="silk-screening.html">rotary silk screening</a> for larger products.  The typical industries served through this printing method are cosmetics, home health care products, and consumer product containers.</p>
 		</article>
 	  <section>
 	</main>
-	<!-- Main Website Section Ends -->
-	<!-- Footer Begins -->
+
 	<footer>
-	  <section>
-	    <!-- Contact Information Begins -->
-		<article>
-		  <h3 class="footer_title">Contact Us</h3>
-		  <div class="footer_contact_details">
-			<p id="footer_address">
-			  <a href="https://www.google.com/maps/place/Techprint+Inc/@41.9915116,-87.9485932,17z/data=!4m13!1m7!3m6!1s0x880fb144dca5c43f:0x11b7f5f076aba322!2s2330+Eastern+Ave,+Elk+Grove+Village,+IL+60007!3b1!8m2!3d41.9915116!4d-87.9464045!3m4!1s0x880fb144da625401:0x3ac1bba13e488381!8m2!3d41.9915116!4d-87.9464045" target="_blank" title="Google Map Location">
-				<i class="fa fa-building"></i>
-				<span>
-				  <b>Techprint, Inc.</b><br>
-				  2330 Eastern Avenue<br>
-				  Elk Grove Village, IL 60007<br>
-				</span>
-			  </a>
-		    </p>
-			<p id="footer_social_media">
-			  <a href="https://www.facebook.com/Techprint-Inc-270400973164699/">
-			    <i class="fa fa-facebook"></i>
-			  </a>
-			</p>
-		    <p id="footer_web">
-			  <a href="tel:+18476160109" title="Phone Number"><i class="fa fa-phone"></i>&nbsp;<span>847-616-0109</span></a><br>
-			  <a href="tel:+18476160323" title="Fax Number"><i class="fa fa-fax"></i>&nbsp;<span>847-616-0323</span></a><br>
-			  <a href="index.html"><span><b>www.e-techprint.com</b></span></a>
-		    </p>
-		  </div>
-		  <p id="footer_copy">
-		    Copyright &copy; 2018 Techprint, Inc.&nbsp;&nbsp;&nbsp;All Rights Reserved
-		  </p>
-		</article>
+	  <h1 id="f_title">Contact Us</h1>
+	  <a id="f_address" href="https://www.google.com/maps/place/Techprint+Inc/@41.9915116,-87.9485932,17z/data=!4m13!1m7!3m6!1s0x880fb144dca5c43f:0x11b7f5f076aba322!2s2330+Eastern+Ave,+Elk+Grove+Village,+IL+60007!3b1!8m2!3d41.9915116!4d-87.9464045!3m4!1s0x880fb144da625401:0x3ac1bba13e488381!8m2!3d41.9915116!4d-87.9464045" target="_blank" title="Google Map Location">
+		<i class="fa fa-building"></i>
+		<span>
+		  <b>Techprint, Inc.</b><br>
+		  2330 Eastern Avenue<br>
+		  Elk Grove Village, IL 60007<br>
+		</span>
+	  </a>
+	  <a id="f_social" href="https://www.facebook.com/Techprint-Inc-270400973164699/"><i class="fa fa-facebook"></i></a>
+	  <a id="f_phone" href="tel:+18476160109" title="Phone Number"><i class="fa fa-phone"></i>&nbsp;<span>847-616-0109</span></a>
+	  <a id="f_fax" href="tel:+18476160323" title="Fax Number"><i class="fa fa-fax"></i>&nbsp;<span>847-616-0323</span></a>
+	  <a id="f_web" href="index.html"><span><b>www.e-techprint.com</b></span></a>
+	  <section id="f_copy">
+		Copyright &copy; 2018 Techprint, Inc.&nbsp;&nbsp;&nbsp;All Rights Reserved
 	  </section>
 	</footer>
-	<!-- Footer Ends -->
-    <script>
-    <!-- All JavaScript here -->
-		function navFunction() {
-			var x = document.getElementById("Topnav");
-			if (x.className === "navbar") {
-				x.className += " responsive";
-			} else {
-				x.className = "navbar";
-			}
-		}
-		
-		function dropFunction() {
-			document.getElementById("sub-menu").classList.toggle("show");
-		}
-		
-		window.onclick = function(e) {
-			if (!e.target.matches('.dropbtn')) {
-				var subMenu = document.getElementById("sub-menu");
-					if (subMenu.classList.contains('show')) {
-						submenu.classList.remove('show');
-					}
-			}
-		}
-	</script>
   </body>
 </html>
